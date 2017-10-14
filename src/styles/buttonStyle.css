@@ -1,0 +1,22 @@
+#option {
+      -fx-background-color: #588C7E;
+      -fx-border-style: solid;
+      -fx-border-color: #F2AE72;
+      -fx-border-width: 0.4em;
+}
+
+#option:hover {
+      -fx-cursor: hand;
+      -fx-background-color: #F2AE72;
+      -fx-border-color: #588C7E;
+      -fx-scale-x: 1.1;
+      -fx-scale-y: 1.1;
+}
+
+#option:pressed {
+      -fx-cursor: hand;
+      -fx-background-color: white;
+      -fx-border-color: #588C7E;
+      -fx-scale-x: 1;
+      -fx-scale-y: 1;
+}
